@@ -1,0 +1,17 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    height: 500px;
+    width: 400px;
+    border-radius: 3px;
+}
+.img:hover{
+   filter: brightness(80%); 
+}
+img:nth-child(6){
+    filter: grayscale(100%);
+
+}
