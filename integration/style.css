@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (min-width:600px){
+    body { background: #333;
+        color: #ffff;    
+}
+}
 .img{
     height: 500px;
     width: 400px;
